@@ -1,5 +1,30 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 + Vite + SSR
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Минимальный шаблон для серверного рендеринга (SSR) на Vue 3 с использованием Vite и Express. Подходит как стартовая точка для проектов, где нужен SSR без лишних зависимостей.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Требования
+
+- **Node.js** >= 20.11 (рекомендуется 22 LTS или новее)
+- **npm** >= 10
+
+## Быстрый старт
+
+```bash
+# Установка зависимостей
+npm install
+
+# Запуск в режиме разработки (с HMR)
+npm run dev
+```
+
+После запуска откройте [http://localhost:5173](http://localhost:5173).
+
+## Скрипты
+
+| Команда                | Описание                                |
+| ---------------------- | --------------------------------------- |
+| `npm run dev`          | Запуск сервера разработки с SSR и HMR   |
+| `npm run build`        | Сборка клиентского и серверного бандлов |
+| `npm run build:client` | Только сборка клиента (`dist/client`)   |
+| `npm run build:server` | Только сборка сервера (`dist/server`)   |
+| `npm run preview`      | Предпросмотр production-сборки          |
