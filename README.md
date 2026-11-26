@@ -21,10 +21,13 @@ npm run dev
 
 ## Скрипты
 
-| Команда                | Описание                                |
-| ---------------------- | --------------------------------------- |
-| `npm run dev`          | Запуск сервера разработки с SSR и HMR   |
-| `npm run build`        | Сборка клиентского и серверного бандлов |
-| `npm run build:client` | Только сборка клиента (`dist/client`)   |
-| `npm run build:server` | Только сборка сервера (`dist/server`)   |
-| `npm run preview`      | Предпросмотр production-сборки          |
+| Команда                 | Описание                                     |
+|-------------------------|----------------------------------------------|
+| `npm run dev`           | Запуск сервера разработки с SSR и HMR        |
+| `npm run build`         | Сборка клиентского и серверного бандлов      |
+| `npm run build:client`  | Только сборка клиента (`dist/client`)        |
+| `npm run build:server`  | Только сборка сервера (`dist/server`)        |
+| `npm run preview`       | Предпросмотр production-сборки               |
+| `npm run lint`          | Проверка ESLint                              |
+| `npm run lint:fix`      | Проверка и автоматическое исправление ESLint |
+| `npm run format`        | Форматирование проекта с помощью Prettier    |
